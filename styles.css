@@ -4,13 +4,13 @@ body {
 }
 
 header {
-    background: rgb(175, 225, 175);
+    background: orange;
     text-align: center;
     height: max-content;
     padding: 1em;
 }
 
-section {
+.primera {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,133 +25,83 @@ article {
     padding: 1em;
 }
 
-
-
-div{
-    margin-left: 40px;
-    display: flex;
-    margin-bottom: 30px;
+article:nth-child(2) {
+    flex: 2;
 }
 
-.circulo1{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#tablero {
+    border-style: dashed;
+    border-color: red;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    height: 75vh;
+    gap: 5px;
+ 
 }
 
-.circulo2{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#tablero div {
+    border-style: dotted;
+    margin: 10px;
+    padding: 5px;
+    
 }
 
-.circulo3{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
-}
-.circulo4{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#uno{
+    background-color: green;
 }
 
-.circulo5{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#nueve{
+    background-color: green;
+}
+#cinco{
+    background-color: red;
+}
+#ocho{
+ background-color: red;
 }
 
-.circulo6{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+.segunda{
+   margin-left: 20%;
+   margin-right: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+#tablero2 {
+    border-style: dashed;
+    border-color: pink;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    height: 75vh;
+    gap: 5px;
+ 
 }
 
-.circulo7{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#tablero2 div {
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+    
 }
 
-.circulo8{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#tres_3{
+    background-color: aqua;
 }
 
-.circulo9{
-    display: block;
-    background-color: #C4C4C6;
-    width: 70px;
-    height: 60px;
-    border-radius: 50%;
-    border-color: 3px gray;
-    text-align: center;
-    padding-top: 10px;  
+#cinco_5{
+    background-color: aqua;
 }
 
-
-.azul{
-    border: 5px blue dashed;
-    border-left: 15px green dashed;
-    border-right: 10px green dashed;
+#siete_7{
+    background-color: aqua;
+}
+#ocho_8{
+    background-color: yellow;
 }
 
-.amarillo{
-   
-    border: 10px solid yellow;
-
-
+#nueve_9{
+    background-color: yellow;
 }
 
-.verde{
-    border-top:5px solid green;
-    border-bottom: 5px solid blue;
-}
-.rojo{
-    border: 15px red dashed;
-    border-left: 15px dashed black;
-    border-right:15px dashed black ;
-    border-bottom: 15px dotted black;
-}
