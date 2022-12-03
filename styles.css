@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+  
+}
+
+header {
+    background: rgb(175, 225, 175);
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+}
+
+article {
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em;
+}
+
+
+
+div{
+    margin-left: 40px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.circulo1{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo2{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo3{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+.circulo4{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo5{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo6{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo7{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo8{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+.circulo9{
+    display: block;
+    background-color: #C4C4C6;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    border-color: 3px gray;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+
+.azul{
+    border: 5px blue dashed;
+    border-left: 15px green dashed;
+    border-right: 10px green dashed;
+}
+
+.amarillo{
+   
+    border: 10px solid yellow;
+
+
+}
+
+.verde{
+    border-top:5px solid green;
+    border-bottom: 5px solid blue;
+}
+.rojo{
+    border: 15px red dashed;
+    border-left: 15px dashed black;
+    border-right:15px dashed black ;
+    border-bottom: 15px dotted black;
+}
